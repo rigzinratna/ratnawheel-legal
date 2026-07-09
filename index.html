@@ -3,18 +3,199 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Ratna Wheel</title>
+  <title>Ratna Wheel — Tibetan Buddhist Practice</title>
+  <meta name="description" content="All-in-one Tibetan Buddhist practice — calendar, chanting, mantra wheels, sadhanas, lineage, and meditation for iPhone and Apple Watch.">
+  <meta property="og:title" content="Ratna Wheel">
+  <meta property="og:description" content="Calendar, chanting, mantra wheels, sadhanas, and meditation in one calm app.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://rigzinratna.github.io/ratnawheel-legal/">
   <style>
-    body { font-family: -apple-system, sans-serif; max-width: 640px; margin: 2rem auto; padding: 0 1rem; line-height: 1.6; }
-    a { color: #6b46c1; }
+    :root {
+      --bg: #faf9f7;
+      --text: #1a1a1a;
+      --muted: #5c5c5c;
+      --accent: #6b46c1;
+      --accent-soft: #ede9fe;
+      --card: #ffffff;
+      --border: #e8e4df;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+
+    .wrap {
+      max-width: 720px;
+      margin: 0 auto;
+      padding: 2.5rem 1.25rem 3rem;
+    }
+
+    .hero {
+      text-align: center;
+      margin-bottom: 2.5rem;
+    }
+
+    .badge {
+      display: inline-block;
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.04em;
+      text-transform: uppercase;
+      color: var(--accent);
+      background: var(--accent-soft);
+      padding: 0.35rem 0.75rem;
+      border-radius: 999px;
+      margin-bottom: 1rem;
+    }
+
+    h1 {
+      font-size: clamp(2rem, 5vw, 2.75rem);
+      line-height: 1.15;
+      margin: 0 0 1rem;
+      font-weight: 700;
+    }
+
+    .tagline {
+      font-size: 1.125rem;
+      color: var(--muted);
+      max-width: 34rem;
+      margin: 0 auto 1.75rem;
+    }
+
+    .cta {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 0.75rem;
+      margin-bottom: 0.5rem;
+    }
+
+    .cta a.store img {
+      height: 54px;
+      width: auto;
+    }
+
+    .cta a.youtube {
+      color: var(--accent);
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    .cta a.youtube:hover { text-decoration: underline; }
+
+    .features {
+      display: grid;
+      gap: 0.75rem;
+      margin: 2.5rem 0;
+      padding: 0;
+      list-style: none;
+    }
+
+    .features li {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 0.9rem 1rem;
+      font-size: 0.95rem;
+    }
+
+    .features strong { color: var(--accent); }
+
+    .screenshots {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 0.75rem;
+      margin: 2rem 0;
+    }
+
+    .screenshots img {
+      width: 100%;
+      height: auto;
+      border-radius: 16px;
+      border: 1px solid var(--border);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.06);
+      display: block;
+    }
+
+    .screenshots img:first-child {
+      grid-column: 1 / -1;
+      max-width: 280px;
+      margin: 0 auto;
+    }
+
+    footer {
+      margin-top: 2.5rem;
+      padding-top: 1.5rem;
+      border-top: 1px solid var(--border);
+      text-align: center;
+      font-size: 0.9rem;
+      color: var(--muted);
+    }
+
+    footer a {
+      color: var(--accent);
+      text-decoration: none;
+      margin: 0 0.5rem;
+    }
+
+    footer a:hover { text-decoration: underline; }
+
+    @media (min-width: 600px) {
+      .screenshots {
+        grid-template-columns: repeat(4, 1fr);
+      }
+
+      .screenshots img:first-child {
+        grid-column: span 2;
+        max-width: none;
+      }
+    }
   </style>
 </head>
 <body>
-  <h1>Ratna Wheel</h1>
-  <p>Meditation, sleep sounds, and mantra wheels.</p>
-  <ul>
-    <li><a href="support.html">Support</a></li>
-    <li><a href="privacy.html">Privacy Policy</a></li>
-  </ul>
+  <div class="wrap">
+    <header class="hero">
+      <div class="badge">iPhone &amp; Apple Watch</div>
+      <h1>Ratna Wheel</h1>
+      <p class="tagline">
+        All-in-one Tibetan Buddhist practice — calendar, chanting, mantra wheels,
+        sadhanas, lineage, and meditation.
+      </p>
+      <div class="cta">
+        <a class="store" href="https://apps.apple.com/app/id6775382325" aria-label="Download on the App Store">
+          <img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83" alt="Download on the App Store">
+        </a>
+        <a class="youtube" href="https://www.youtube.com/channel/UC1tyaD7Iakq9vydBK39g5XQ">Watch on YouTube →</a>
+      </div>
+    </header>
+
+    <ul class="features">
+      <li><strong>Today</strong> — Tibetan calendar, practice suggestions, and quick chanting</li>
+      <li><strong>Widgets &amp; Watch</strong> — mantra counts and auspicious days on your wrist</li>
+      <li><strong>Mantra Wheel</strong> — design 2D/3D wheels and export as image or video</li>
+      <li><strong>Practice Library</strong> — sadhanas, audio, PDFs, and lineage records</li>
+    </ul>
+
+    <div class="screenshots">
+      <img src="images/01-mantra-wheel.png" alt="3D mantra wheel in Ratna Wheel">
+      <img src="images/02-today.png" alt="Today dashboard with Tibetan calendar">
+      <img src="images/03-tibetan-calendar.png" alt="Tibetan calendar with auspicious days">
+      <img src="images/05-chanting.png" alt="Mantra chanting counter">
+    </div>
+
+    <footer>
+      <p>
+        <a href="support.html">Support</a> ·
+        <a href="privacy.html">Privacy Policy</a>
+      </p>
+      <p>English · 繁體中文 · 简体中文</p>
+    </footer>
+  </div>
 </body>
 </html>

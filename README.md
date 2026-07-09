@@ -1,13 +1,12 @@
-# Ratna Wheel — Legal pages (GitHub Pages)
+# Ratna Wheel — Landing page & legal (GitHub Pages)
 
-Public Support and Privacy Policy pages for App Store Connect.
+Public landing page, Support, and Privacy Policy for App Store Connect and marketing links.
 
-## URLs (after GitHub Pages is enabled)
+## Live URLs
 
-Replace `YOUR_GITHUB_USERNAME` with your GitHub username:
-
-- **Support:** `https://YOUR_GITHUB_USERNAME.github.io/ratnawheel-legal/support.html`
-- **Privacy:** `https://YOUR_GITHUB_USERNAME.github.io/ratnawheel-legal/privacy.html`
+- **Home (landing page):** https://rigzinratna.github.io/ratnawheel-legal/
+- **Support:** https://rigzinratna.github.io/ratnawheel-legal/support.html
+- **Privacy:** https://rigzinratna.github.io/ratnawheel-legal/privacy.html
 
 ## Publish to GitHub Pages
 
